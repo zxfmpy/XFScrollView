@@ -17,7 +17,8 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 }\
 (isPhoneX);})
 
-#define XF_NAVBARHIGHT XF_IPHONE_X?88:64
+#define XF_NAVBARHIGHT (XF_IPHONE_X?88:64)
+#define XF_BOTTOMHEIGHT (XF_IPHONE_X?34:0)
 
 @interface XFScrollView : UIScrollView
 

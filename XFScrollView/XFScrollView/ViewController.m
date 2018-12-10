@@ -23,7 +23,8 @@
     self.navBarView.backgroundColor = [UIColor redColor];
     [self.view addSubview:self.navBarView];
     
-    self.mainScrollView = [[XFScrollView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(self.navBarView.frame), self.view.frame.size.width, self.view.frame.size.height - CGRectGetMaxY(self.navBarView.frame))];
+    self.mainScrollView = [[XFScrollView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(self.navBarView.frame), self.view.frame.size.width, self.view.frame.size.height - CGRectGetMaxY(self.navBarView.frame) - XF_BOTTOMHEIGHT)];
+    self.mainScrollView.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:self.mainScrollView];
     
 }
