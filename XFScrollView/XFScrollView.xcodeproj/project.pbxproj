@@ -15,6 +15,10 @@
 		BEB1F4FB21BE417700105086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB1F4F921BE417700105086 /* LaunchScreen.storyboard */; };
 		BEB1F4FE21BE417700105086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1F4FD21BE417700105086 /* main.m */; };
 		BEB1F50721BE44E200105086 /* XFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1F50621BE44E200105086 /* XFScrollView.m */; };
+		BEB1F50A21BE488F00105086 /* XFTopContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1F50921BE488F00105086 /* XFTopContainerView.m */; };
+		BEB1F51021BE4C7C00105086 /* XFPageContainerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1F50F21BE4C7C00105086 /* XFPageContainerCollectionView.m */; };
+		BEB1F51321BE4E0700105086 /* XFPageContainerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1F51221BE4E0700105086 /* XFPageContainerCollectionViewCell.m */; };
+		BEB1F51621BE52D800105086 /* XFPagecontaierSubCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1F51521BE52D800105086 /* XFPagecontaierSubCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,14 @@
 		BEB1F4FD21BE417700105086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEB1F50521BE44E200105086 /* XFScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFScrollView.h; sourceTree = "<group>"; };
 		BEB1F50621BE44E200105086 /* XFScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFScrollView.m; sourceTree = "<group>"; };
+		BEB1F50821BE488F00105086 /* XFTopContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFTopContainerView.h; sourceTree = "<group>"; };
+		BEB1F50921BE488F00105086 /* XFTopContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFTopContainerView.m; sourceTree = "<group>"; };
+		BEB1F50E21BE4C7C00105086 /* XFPageContainerCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFPageContainerCollectionView.h; sourceTree = "<group>"; };
+		BEB1F50F21BE4C7C00105086 /* XFPageContainerCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFPageContainerCollectionView.m; sourceTree = "<group>"; };
+		BEB1F51121BE4E0700105086 /* XFPageContainerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFPageContainerCollectionViewCell.h; sourceTree = "<group>"; };
+		BEB1F51221BE4E0700105086 /* XFPageContainerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFPageContainerCollectionViewCell.m; sourceTree = "<group>"; };
+		BEB1F51421BE52D800105086 /* XFPagecontaierSubCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFPagecontaierSubCollectionViewCell.h; sourceTree = "<group>"; };
+		BEB1F51521BE52D800105086 /* XFPagecontaierSubCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFPagecontaierSubCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +116,14 @@
 			children = (
 				BEB1F50521BE44E200105086 /* XFScrollView.h */,
 				BEB1F50621BE44E200105086 /* XFScrollView.m */,
+				BEB1F50821BE488F00105086 /* XFTopContainerView.h */,
+				BEB1F50921BE488F00105086 /* XFTopContainerView.m */,
+				BEB1F50E21BE4C7C00105086 /* XFPageContainerCollectionView.h */,
+				BEB1F50F21BE4C7C00105086 /* XFPageContainerCollectionView.m */,
+				BEB1F51121BE4E0700105086 /* XFPageContainerCollectionViewCell.h */,
+				BEB1F51221BE4E0700105086 /* XFPageContainerCollectionViewCell.m */,
+				BEB1F51421BE52D800105086 /* XFPagecontaierSubCollectionViewCell.h */,
+				BEB1F51521BE52D800105086 /* XFPagecontaierSubCollectionViewCell.m */,
 			);
 			path = XFScrollView;
 			sourceTree = "<group>";
@@ -228,9 +248,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEB1F4F321BE417500105086 /* ViewController.m in Sources */,
+				BEB1F51621BE52D800105086 /* XFPagecontaierSubCollectionViewCell.m in Sources */,
+				BEB1F50A21BE488F00105086 /* XFTopContainerView.m in Sources */,
 				BEB1F50721BE44E200105086 /* XFScrollView.m in Sources */,
+				BEB1F51321BE4E0700105086 /* XFPageContainerCollectionViewCell.m in Sources */,
 				BEB1F4FE21BE417700105086 /* main.m in Sources */,
 				BEB1F4F021BE417500105086 /* AppDelegate.m in Sources */,
+				BEB1F51021BE4C7C00105086 /* XFPageContainerCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

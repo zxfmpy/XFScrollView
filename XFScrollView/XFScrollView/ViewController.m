@@ -27,6 +27,15 @@
     self.mainScrollView.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:self.mainScrollView];
     
+    [self.mainScrollView setupTopContainerViewFrameHeight:self.view.frame.size.height + 100 bannerFrameHeight:50];
+    
+    NSMutableArray *datas = [NSMutableArray array];
+    for (NSInteger i = 0; i < 3; i ++) {
+        [datas addObject:@(i)];
+    }
+    
+    [self.mainScrollView setupDatas:datas];
+    
 }
 
 

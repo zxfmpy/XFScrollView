@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "XFTopContainerView.h"
 NS_ASSUME_NONNULL_BEGIN
 
 #define XF_IPHONE_X \
@@ -21,6 +21,12 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 #define XF_BOTTOMHEIGHT (XF_IPHONE_X?34:0)
 
 @interface XFScrollView : UIScrollView
+@property (nonatomic, strong, readonly) XFTopContainerView *topContainerView;
+
+- (void)setupTopContainerViewFrameHeight:(CGFloat)containerHeight bannerFrameHeight:(CGFloat)bannerHeight;
+
+//设置数据源
+- (void)setupDatas:(NSMutableArray *)datas;
 
 @end
 
