@@ -14,6 +14,7 @@
 		BEB1F4F821BE417700105086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB1F4F721BE417700105086 /* Assets.xcassets */; };
 		BEB1F4FB21BE417700105086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB1F4F921BE417700105086 /* LaunchScreen.storyboard */; };
 		BEB1F4FE21BE417700105086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1F4FD21BE417700105086 /* main.m */; };
+		BEB1F50721BE44E200105086 /* XFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1F50621BE44E200105086 /* XFScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		BEB1F4FA21BE417700105086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEB1F4FC21BE417700105086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEB1F4FD21BE417700105086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEB1F50521BE44E200105086 /* XFScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFScrollView.h; sourceTree = "<group>"; };
+		BEB1F50621BE44E200105086 /* XFScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		BEB1F4ED21BE417500105086 /* XFScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				BEB1F50421BE44CA00105086 /* XFScrollView */,
 				BEB1F4EE21BE417500105086 /* AppDelegate.h */,
 				BEB1F4EF21BE417500105086 /* AppDelegate.m */,
 				BEB1F4F121BE417500105086 /* ViewController.h */,
@@ -91,6 +95,15 @@
 				BEB1F4F921BE417700105086 /* LaunchScreen.storyboard */,
 				BEB1F4FC21BE417700105086 /* Info.plist */,
 				BEB1F4FD21BE417700105086 /* main.m */,
+			);
+			path = XFScrollView;
+			sourceTree = "<group>";
+		};
+		BEB1F50421BE44CA00105086 /* XFScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BEB1F50521BE44E200105086 /* XFScrollView.h */,
+				BEB1F50621BE44E200105086 /* XFScrollView.m */,
 			);
 			path = XFScrollView;
 			sourceTree = "<group>";
@@ -215,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEB1F4F321BE417500105086 /* ViewController.m in Sources */,
+				BEB1F50721BE44E200105086 /* XFScrollView.m in Sources */,
 				BEB1F4FE21BE417700105086 /* main.m in Sources */,
 				BEB1F4F021BE417500105086 /* AppDelegate.m in Sources */,
 			);
